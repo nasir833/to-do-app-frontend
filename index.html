@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./styles/add-todo.css">
+    <!-- JS  -->
+    <script src="./index.js" defer></script>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <a href="./list-todo.html">listadsdasdasdasdsa</a> -->
+    <header>
+        <h1>Note</h1>
+        <nav>
+            <h3 class="add"><i class="fa-solid fa-clock"></i>Add Note</h3>
+            <h3><i class="fa-solid fa-star"></i>Important</h3>
+            <h3><i class="fa-solid fa-star"></i>Tasks</h3>
+            <hr>
+            <h3 class="task"><i class="fa-solid fa-list-check"></i>Tasks</h3>
+        </nav>
+    </header>
+    <main class="main-main">
+        <h1>Add your note here</h1>
+        <section>
+            <div class="title">
+                <i class="fa-solid fa-pen"></i>
+                <input type="text" name="heading" id="title" placeholder="Title">
+            </div>
+            <div class="locate">
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <input type="text" name="area" id="location" placeholder="Location">
+            </div>
+            <div class="discription">
+                <i class="fa-solid fa-copy"></i>
+                <input type="text" name="detail" id="discription" placeholder="Your note">
+            </div>
+            <div class="add-btn">    
+                <button class="add-note">Add your note</button>
+            </div>
+        </section>
+        <i class="fa-solid fa-plus adding"></i>
+        
+    </main>
+    <section class="main start-remove">
+        <div class="top">
+            <h1 class="myday">My Day</h1>    
+            <h3 class="tdy">Today</h3>
+        </div>
+        <div class="list">
+                <div class="p"><input type="checkbox" name="check" id="checkbx" class="chkbx"><label for="checkbx" class="userv">My Note</label></div>
+                <i class="fa-solid fa-trash delt"></i>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <span class="copyright-year"></span> .Design by <span class="dev-by"></span></p>
+    </footer>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/8af973fc09.js" crossorigin="anonymous"></script>
+</body>
+</html>
