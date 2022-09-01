@@ -193,7 +193,7 @@ footer p{
     background-color: var(--purple);
     
 }
-.main div.list{
+.main div.listadd{
     margin: 1rem;
     background-color: #fff;
     display: flex;
@@ -203,36 +203,39 @@ footer p{
     height: 70px;
     justify-items: center;
 }
-.main div.list .fa-trash{
+/* .main div.listadd .fa-trash{
     color: var(--light-purple);
     margin-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-.main div.list .p{
-    display: block;
+} */
+.main div.listadd .padd{
     width: 100%;
     overflow: auto;
     border-left: 5px solid #ca22ff;
     padding: 12px;
     height: auto;
-    /* display: flex; */
+    display: flex;
     align-content: center;
 }
-.main div.list .ld{
+.main div.listadd .ld{
     display: block;
 }
-.main div.list .p .chkbx{
+.main div.listadd .padd .chkbx{
     cursor: pointer;
     width:15px;
 }
-.main div.list .p label{
+.main div.listadd .padd .userv{
     cursor: pointer;
-    align-items: center;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7px;
 }
-input[type=checkbox]:checked + .userv{
+input[type=checkbox]:checked ~ .userv{
     text-decoration:3px solid #ca22ff line-through;
   }
 .start-remove{
